@@ -126,10 +126,10 @@
             <h2>{{ $post['title'] }}</h2>
             </div>
           <div class="action">
-            <a href="{{ route('userEdit', ['id'=> array_search($post, $posts) ]) }}"><i class="fa fa-edit"></i></a>
+            <a href="{{ route('userEdit', ['id'=> array_search($post, $posts) ]) }}">Edit<i class="fa fa-edit"></i></a>
           </div>
           <div class="action">
-          <a href="{{ route('userDelete', ['id'=>  array_search($post, $posts) ]) }}"><i class="fa fa-trash-alt"></i></a> 
+          <a href="{{ route('userDelete', ['id'=>  array_search($post, $posts) ]) }}"><i class="fa fa-trash-alt"></i>Delete</a> 
           </div>
           </li>
 
